@@ -1,0 +1,345 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soumettre.fr\n"
+"POT-Creation-Date: 2021-04-20 17:36+0200\n"
+"PO-Revision-Date: 2021-04-20 17:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: soumettrefr.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: admin/class-soumettre-admin.php:94 admin/class-soumettre-admin.php:95
+msgctxt "Admin menu"
+msgid "Soumettre.fr"
+msgstr "Soumettre.fr"
+
+#: admin/class-soumettre-admin.php:120
+msgid "Don't forget to connect your website."
+msgstr "N’oubliez pas de connecter votre site internet."
+
+#: admin/class-soumettre-admin.php:132
+msgid ""
+"Your API access is invalid. Check on <a href='https://soumettre.fr/user/api-"
+"token' target='_blank' rel='noopener'>Soumettre website</a> your API key and "
+"API secret."
+msgstr ""
+"L’accès à votre API n’est pas valide. Vérifiez sur <a href='https://"
+"soumettre.fr/user/api-token' target='_blank' rel='noopener'>le site "
+"soumettre.fr</a> vos accès API."
+
+#: admin/class-soumettre-admin.php:142
+msgid "Options"
+msgstr "Options"
+
+#: admin/class-soumettre-admin.php:147 admin/class-soumettre-admin.php:175
+msgid "Default Soumettre posts author"
+msgstr "Auteur par défaut des articles Soumettre.fr"
+
+#: admin/class-soumettre-admin.php:181
+msgid "Random user"
+msgstr "Utilisateur aléatoire"
+
+#: admin/class-soumettre-admin.php:185
+msgid "Random user are picked in administrator, author and editor roles"
+msgstr ""
+"L’utilisateur aléatoire est sélectionné dans les rôles d’administrateur, "
+"d’auteur et d’éditeur"
+
+#: admin/class-soumettre-admin.php:191
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/class-soumettre-admin.php:206
+msgid "Weekly"
+msgstr "Hebdomadaire"
+
+#: admin/class-soumettre-admin.php:231
+msgid ""
+"Your website can not connect with Soumettre API. Check your API credentials. "
+"If it still don't work create a support ticket."
+msgstr ""
+"Votre site web ne peut pas se connecter à l’API Soumettre.fr. Vérifiez vos "
+"informations d’identification API. Si cela ne fonctionne toujours pas, créez "
+"un ticket de support."
+
+#: admin/class-soumettre-admin.php:232
+msgid "Close"
+msgstr "Fermer"
+
+#: admin/class-soumettre-admin.php:233
+msgid "Do not display anymore."
+msgstr "Ne plus afficher."
+
+#: admin/class-soumettre-admin.php:247
+msgid ""
+"Old Soumettre.fr plugin seen, your settings have been recovered and plugin "
+"deleted."
+msgstr ""
+"Nous avons remarqué que vous aviez l'ancienne version de l'extension "
+"installée, vos paramètres API ont été récupérés et l'extension supprimée."
+
+#: admin/partials/soumettre-admin-display.php:34
+msgctxt "Image alt on logo"
+msgid "Soumettre.fr logo"
+msgstr "Logo Soumettre.fr"
+
+#: admin/partials/soumettre-admin-display.php:40
+msgid "Plugin settings"
+msgstr "Paramètres du plugin"
+
+#: admin/partials/soumettre-admin-display.php:41
+msgid "Soumettre.fr gateway"
+msgstr "Passerelle Soumettre.fr"
+
+#: admin/partials/soumettre-admin-display.php:45
+msgid "Connect your website now"
+msgstr "Connectez votre site web dès maintenant"
+
+#: admin/partials/soumettre-admin-display.php:47
+msgid ""
+"Your are not connected with Soumettre.fr API yet. You must already have an "
+"account on our website."
+msgstr ""
+"Vous n’êtes pas encore connecté à l’API Soumettre.fr. Vous devez déjà avoir "
+"un compte sur notre site Web."
+
+#: admin/partials/soumettre-admin-display.php:57
+msgid "Connect my website to Soumettre.fr"
+msgstr "Connecter mon site web à Soumettre.fr"
+
+#: admin/partials/soumettre-admin-display.php:63
+msgid "Your website is connected with Soumettre.fr"
+msgstr "Votre site web est connecté à Soumettre.fr"
+
+#: admin/partials/soumettre-admin-display.php:68
+msgid "Email:"
+msgstr "Email :"
+
+#: admin/partials/soumettre-admin-display.php:73
+msgid "API key:"
+msgstr "Clé d’API :"
+
+#: admin/partials/soumettre-admin-display.php:78
+msgid "API secret:"
+msgstr "Clé secrète API :"
+
+#: admin/partials/soumettre-admin-display.php:84
+msgid "ID:"
+msgstr "ID :"
+
+#: admin/partials/soumettre-admin-display.php:90
+msgid "disconnect"
+msgstr "déconnecter"
+
+#: admin/partials/soumettre-admin-display.php:108
+msgid "Commissions"
+msgstr "Commissions"
+
+#: admin/partials/soumettre-admin-display.php:112
+msgid "Your commission: "
+msgstr "Votre commission  : "
+
+#: admin/partials/soumettre-admin-display.php:120
+msgid "Catalog commission: "
+msgstr "Commission du Catalogue  : "
+
+#. translators: %s: Link url
+#: admin/partials/soumettre-admin-display.php:129
+#, php-format
+msgid ""
+"You have not added your website to our catalog yet. <a href='%s' "
+"target='_blank'>Click here to add it now</a>."
+msgstr ""
+"Vous n’avez pas encore ajouté votre site web à notre catalogue. <a href='%s' "
+"target='_blank'>Cliquez ici pour l’ajouter maintenant</a>."
+
+#: admin/partials/soumettre-admin-display.php:136
+msgid "State of the website"
+msgstr "État du site internet"
+
+#: admin/partials/soumettre-admin-display.php:138
+msgid "Waiting for validation"
+msgstr "En attente de validation"
+
+#: admin/partials/soumettre-admin-display.php:143
+msgid "Useful links"
+msgstr "Liens utiles"
+
+#: admin/partials/soumettre-admin-display.php:147
+msgid "My Soumettre.fr account"
+msgstr "Mon compte Soumettre.fr"
+
+#: admin/partials/soumettre-admin-display.php:149
+msgid "My API keys"
+msgstr "Mes clés API"
+
+#: admin/partials/soumettre-admin-display.php:154
+msgid "Manage my website"
+msgstr "Gérer mon site"
+
+#: includes/class-soumettre-activator.php:91
+msgid "New Soumettre.fr plugin activated. You can remove your old plugin."
+msgstr ""
+"Nouveau plugin Soumettre.fr activé. Vous pouvez supprimer votre ancien "
+"plugin."
+
+#: includes/class-soumettre-api.php:108 includes/class-soumettre-api.php:114
+msgid "unknown error"
+msgstr "erreur inconnue"
+
+#: includes/class-soumettre-category.php:25
+msgid "get_by_id method accept only int param."
+msgstr "La methode get_by_id accepte seulement un entier."
+
+#: includes/class-soumettre-post.php:146
+msgid "Missing post"
+msgstr "Article manquant"
+
+#: public/rest/class-soumettre-rest-controller.php:96
+msgid "Unable to delete Soumettre.fr post"
+msgstr "Impossible de supprimer l'article Soumettre.fr"
+
+#: public/rest/class-soumettre-rest-route.php:41
+msgid "nonce to secure call"
+msgstr "nonce pour sécuriser l’appel"
+
+#: public/rest/class-soumettre-rest-route.php:46
+msgid "API key"
+msgstr "Clé API"
+
+#: public/rest/class-soumettre-rest-route.php:51
+msgid "API secret"
+msgstr "Clé secrète API"
+
+#: public/rest/class-soumettre-rest-route.php:66
+msgid "Amount of commissions"
+msgstr "Montant des commissions"
+
+#: public/rest/class-soumettre-rest-route.php:95
+#: public/rest/class-soumettre-rest-route.php:156
+msgid "Post title"
+msgstr "Titre de l’article"
+
+#: public/rest/class-soumettre-rest-route.php:100
+#: public/rest/class-soumettre-rest-route.php:161
+msgid "Post content"
+msgstr "Contenu de la publication"
+
+#: public/rest/class-soumettre-rest-route.php:105
+#: public/rest/class-soumettre-rest-route.php:143
+#: public/rest/class-soumettre-rest-route.php:166
+#: public/rest/class-soumettre-rest-route.php:179
+msgid "Soumettre.fr content ID"
+msgstr "ID du contenu Soumettre.fr"
+
+#: public/rest/class-soumettre-rest-route.php:114
+msgid "Post category ID"
+msgstr "ID de la catégorie d'article"
+
+#: public/rest/class-soumettre-rest-route.php:123
+msgid "Featured image URL"
+msgstr "URL de l’image à la une"
+
+#: public/rest/class-soumettre-validate-rest-args.php:10
+#: public/rest/class-soumettre-validate-rest-args.php:22
+msgid "cat_name argument must be a string."
+msgstr "L'argument cat_name doit être une chaîne de caractères."
+
+#: public/rest/class-soumettre-validate-rest-args.php:14
+#: public/rest/class-soumettre-validate-rest-args.php:26
+msgid "Category already exists."
+msgstr "La catégorie existe déjà."
+
+#: public/rest/class-soumettre-validate-rest-args.php:34
+msgid "cat_parent must be a integer."
+msgstr "cat_parent doit être un entier."
+
+#: public/rest/class-soumettre-validate-rest-args.php:38
+msgid "cat_parent doesn't exists."
+msgstr "cat_parent n’existe pas."
+
+#: public/rest/class-soumettre-validate-rest-args.php:46
+msgid "soumettre_id must be an integer."
+msgstr "soumettre_id doit être un entier."
+
+#: public/rest/class-soumettre-validate-rest-args.php:52
+msgid "author_id must be an integer."
+msgstr "author_id doit être un entier."
+
+#: public/rest/class-soumettre-validate-rest-args.php:56
+msgid "Author doesn't exists"
+msgstr "L’auteur n’existe pas"
+
+#: public/rest/class-soumettre-validate-rest-args.php:64
+msgid "image must be an URL."
+msgstr "l’image doit être une URL."
+
+#: public/rest/class-soumettre-validate-rest-args.php:72
+msgid "image must be a valid URL."
+msgstr "l’image doit être une URL valide."
+
+#: public/rest/class-soumettre-validate-rest-args.php:81
+#: public/rest/class-soumettre-validate-rest-args.php:93
+msgid "category_id must be an integer."
+msgstr "category_id doit être un entier."
+
+#: public/rest/class-soumettre-validate-rest-args.php:85
+msgid "Category doesn't exists."
+msgstr "La catégorie n’existe pas."
+
+#: public/rest/class-soumettre-validate-rest-args.php:100
+msgid "Post with this soumettre_id doesn't exsits"
+msgstr "L'article avec ce soumettre_id n’existe pas"
+
+#. translators: %s: parameter type
+#: public/rest/class-soumettre-validate-rest-args.php:114
+#, php-format
+msgctxt "Display the type of var"
+msgid "Commission amount should be a json array. You sent a %s"
+msgstr "Le montant de la Commission devrait être un tableau json. %s reçu"
+
+#: public/rest/class-soumettre-validate-rest-args.php:132
+msgid "Commission amount must be filled"
+msgstr "Le montant de la Commission doit être rempli"
+
+#. Plugin Name of the plugin/theme
+msgid "Soumettre.fr"
+msgstr "Soumettre.fr"
+
+#. Plugin URI of the plugin/theme
+msgid "https://soumettre.fr/devenir-partenaire"
+msgstr "https://soumettre.fr/devenir-partenaire"
+
+#. Description of the plugin/theme
+msgid "Connects your website to the Soumettre.fr platform"
+msgstr "Connectez votre site web à la plate-forme Soumettre.fr"
+
+#. Author of the plugin/theme
+msgid "Bleetic"
+msgstr "Bleetic"
+
+#. Author URI of the plugin/theme
+msgid "https://soumettre.fr/"
+msgstr "https://soumettre.fr/"
+
+#, fuzzy
+#~ msgid "Soumettre content ID"
+#~ msgstr "ID de contenu de contenu de contenu de contenu"
+
+#~ msgid "Dismiss"
+#~ msgstr "Rejeter"

@@ -1,0 +1,322 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Soumettre.fr\n"
+"POT-Creation-Date: 2021-04-20 17:33+0200\n"
+"PO-Revision-Date: 2021-04-20 17:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: soumettrefr.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: admin/class-soumettre-admin.php:94 admin/class-soumettre-admin.php:95
+msgctxt "Admin menu"
+msgid "Soumettre.fr"
+msgstr ""
+
+#: admin/class-soumettre-admin.php:120
+msgid "Don't forget to connect your website."
+msgstr ""
+
+#: admin/class-soumettre-admin.php:132
+msgid ""
+"Your API access is invalid. Check on <a href='https://soumettre.fr/user/api-"
+"token' target='_blank' rel='noopener'>Soumettre website</a> your API key and "
+"API secret."
+msgstr ""
+
+#: admin/class-soumettre-admin.php:142
+msgid "Options"
+msgstr ""
+
+#: admin/class-soumettre-admin.php:147 admin/class-soumettre-admin.php:175
+msgid "Default Soumettre posts author"
+msgstr ""
+
+#: admin/class-soumettre-admin.php:181
+msgid "Random user"
+msgstr ""
+
+#: admin/class-soumettre-admin.php:185
+msgid "Random user are picked in administrator, author and editor roles"
+msgstr ""
+
+#: admin/class-soumettre-admin.php:191
+msgid "Settings"
+msgstr ""
+
+#: admin/class-soumettre-admin.php:206
+msgid "Weekly"
+msgstr ""
+
+#: admin/class-soumettre-admin.php:231
+msgid ""
+"Your website can not connect with Soumettre API. Check your API credentials. "
+"If it still don't work create a support ticket."
+msgstr ""
+
+#: admin/class-soumettre-admin.php:232
+msgid "Close"
+msgstr ""
+
+#: admin/class-soumettre-admin.php:233
+msgid "Do not display anymore."
+msgstr ""
+
+#: admin/class-soumettre-admin.php:247
+msgid ""
+"Old Soumettre.fr plugin seen, your settings have been recovered and plugin "
+"deleted."
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:34
+msgctxt "Image alt on logo"
+msgid "Soumettre.fr logo"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:40
+msgid "Plugin settings"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:41
+msgid "Soumettre.fr gateway"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:45
+msgid "Connect your website now"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:47
+msgid ""
+"Your are not connected with Soumettre.fr API yet. You must already have an "
+"account on our website."
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:57
+msgid "Connect my website to Soumettre.fr"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:63
+msgid "Your website is connected with Soumettre.fr"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:68
+msgid "Email:"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:73
+msgid "API key:"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:78
+msgid "API secret:"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:84
+msgid "ID:"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:90
+msgid "disconnect"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:108
+msgid "Commissions"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:112
+msgid "Your commission: "
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:120
+msgid "Catalog commission: "
+msgstr ""
+
+#. translators: %s: Link url
+#: admin/partials/soumettre-admin-display.php:129
+#, php-format
+msgid ""
+"You have not added your website to our catalog yet. <a href='%s' "
+"target='_blank'>Click here to add it now</a>."
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:136
+msgid "State of the website"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:138
+msgid "Waiting for validation"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:143
+msgid "Useful links"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:147
+msgid "My Soumettre.fr account"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:149
+msgid "My API keys"
+msgstr ""
+
+#: admin/partials/soumettre-admin-display.php:154
+msgid "Manage my website"
+msgstr ""
+
+#: includes/class-soumettre-activator.php:91
+msgid "New Soumettre.fr plugin activated. You can remove your old plugin."
+msgstr ""
+
+#: includes/class-soumettre-api.php:108 includes/class-soumettre-api.php:114
+msgid "unknown error"
+msgstr ""
+
+#: includes/class-soumettre-category.php:25
+msgid "get_by_id method accept only int param."
+msgstr ""
+
+#: includes/class-soumettre-post.php:146
+msgid "Missing post"
+msgstr ""
+
+#: public/rest/class-soumettre-rest-controller.php:96
+msgid "Unable to delete Soumettre.fr post"
+msgstr ""
+
+#: public/rest/class-soumettre-rest-route.php:41
+msgid "nonce to secure call"
+msgstr ""
+
+#: public/rest/class-soumettre-rest-route.php:46
+msgid "API key"
+msgstr ""
+
+#: public/rest/class-soumettre-rest-route.php:51
+msgid "API secret"
+msgstr ""
+
+#: public/rest/class-soumettre-rest-route.php:66
+msgid "Amount of commissions"
+msgstr ""
+
+#: public/rest/class-soumettre-rest-route.php:95
+#: public/rest/class-soumettre-rest-route.php:156
+msgid "Post title"
+msgstr ""
+
+#: public/rest/class-soumettre-rest-route.php:100
+#: public/rest/class-soumettre-rest-route.php:161
+msgid "Post content"
+msgstr ""
+
+#: public/rest/class-soumettre-rest-route.php:105
+#: public/rest/class-soumettre-rest-route.php:143
+#: public/rest/class-soumettre-rest-route.php:166
+#: public/rest/class-soumettre-rest-route.php:179
+msgid "Soumettre.fr content ID"
+msgstr ""
+
+#: public/rest/class-soumettre-rest-route.php:114
+msgid "Post category ID"
+msgstr ""
+
+#: public/rest/class-soumettre-rest-route.php:123
+msgid "Featured image URL"
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:10
+#: public/rest/class-soumettre-validate-rest-args.php:22
+msgid "cat_name argument must be a string."
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:14
+#: public/rest/class-soumettre-validate-rest-args.php:26
+msgid "Category already exists."
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:34
+msgid "cat_parent must be a integer."
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:38
+msgid "cat_parent doesn't exists."
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:46
+msgid "soumettre_id must be an integer."
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:52
+msgid "author_id must be an integer."
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:56
+msgid "Author doesn't exists"
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:64
+msgid "image must be an URL."
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:72
+msgid "image must be a valid URL."
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:81
+#: public/rest/class-soumettre-validate-rest-args.php:93
+msgid "category_id must be an integer."
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:85
+msgid "Category doesn't exists."
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:100
+msgid "Post with this soumettre_id doesn't exsits"
+msgstr ""
+
+#. translators: %s: parameter type
+#: public/rest/class-soumettre-validate-rest-args.php:114
+#, php-format
+msgctxt "Display the type of var"
+msgid "Commission amount should be a json array. You sent a %s"
+msgstr ""
+
+#: public/rest/class-soumettre-validate-rest-args.php:132
+msgid "Commission amount must be filled"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Soumettre.fr"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://soumettre.fr/devenir-partenaire"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Connects your website to the Soumettre.fr platform"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Bleetic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://soumettre.fr/"
+msgstr ""

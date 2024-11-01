@@ -1,0 +1,284 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+:root {
+	--main-color: #38c7f4;
+	--error-color: #c53030;
+	--warning-color: #ed8936;
+	--info-color: #6b46c1;
+}
+
+.color-main {
+	color: var(--main-color);
+}
+
+.soumettre-settings-container a {
+	text-decoration: none;
+	color: var(--main-color);
+	transition: color 0.5s ease;
+}
+
+.soumettre-settings-container a:hover,
+.soumettre-settings-container a:focus,
+.soumettre-settings-container a:active {
+	text-decoration: none;
+	color: #444;
+}
+
+.soumettre-settings-container a.external-link::after {
+	font-family: dashicons;
+	content: "\f504";
+	padding-left: 4px;
+}
+
+.soumettre-settings {
+	padding-top: 2rem;
+}
+
+.soumettre-block {
+	background: #fff;
+	padding: 2rem;
+	min-width: 200px;
+	max-width: 400px;
+	border-left: 5px solid var(--main-color);
+	margin-bottom: 1rem;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.soumettre-block .dashicons {
+	color: var(--main-color);
+	filter: opacity(65%);
+}
+
+.soumettre-block .soumettre-money-amount {
+	font-weight: 700;
+}
+
+.commissions p {
+	font-size: 14px;
+}
+
+.soumettre-block > *:first-child,
+.soumettre-settings > *:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.soumettre-block > *:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.soumettre-settings-aside .soumettre-block {
+	border-left-color: #b4b4b4;
+}
+
+.soumettre-settings-aside .soumettre-block .dashicons {
+	color: #b4b4b4;
+}
+
+.soumettre-block.soumettre-warning {
+	border-left-color: var(--warning-color);
+}
+
+.soumettre-block.soumettre-warning .dashicons {
+	color: var(--warning-color);
+}
+
+.soumettre-block.soumettre-error {
+	border-left-color: var(--error-color);
+}
+
+.soumettre-block.soumettre-error .dashicons {
+	color: var(--error-color);
+}
+
+.soumettre-block.soumettre-info {
+	border-left-color: var(--info-color);
+}
+
+.soumettre-block.soumettre-info .dashicons {
+	color: var(--info-color);
+}
+
+.soumettre-connetected {
+	margin-bottom: 3.5rem;
+	position: relative;
+}
+
+.soumettre-connetected ul {
+	margin-top: 1.5rem;
+}
+
+.soumettre-connetected .soumettre-remove-gateway-link {
+	position: absolute;
+	right: 1rem;
+	color: var(--error-color);
+	font-size: 0.8rem;
+	font-weight: 300;
+	cursor: pointer;
+	background: none;
+	padding: 0;
+	display: inline;
+	border: 0;
+	box-shadow: none;
+}
+
+.soumettre-settings .notice,
+.soumettre-notice {
+	position: relative;
+	border: none;
+	border-left: 5px solid;
+	background-color: #fff;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 45px;
+}
+
+.soumettre-settings .notice-success,
+.soumettre-notice.notice-success {
+	border-left-color: var(--main-color);
+}
+
+.soumettre-settings .notice-error,
+.soumettre-notice.notice-error {
+	border-left-color: var(--error-color);
+}
+
+.soumettre-settings .notice-warning,
+.soumettre-notice.notice-warning {
+	border-left-color: var(--warning-color);
+}
+
+.soumettre-settings .notice-info,
+.soumettre-notice.notice-info {
+	border-left-color: var(--info-color);
+}
+
+.soumettre-settings .notice-success a,
+.soumettre-notice.notice-success a {
+	color: var(--main-color);
+}
+
+.soumettre-settings .notice-error a,
+.soumettre-notice.notice-error a {
+	color: var(--error-color);
+}
+
+.soumettre-settings .notice-warning a,
+.soumettre-notice.notice-warning a {
+	color: var(--warning-color);
+}
+
+.soumettre-settings .notice-info a,
+.soumettre-notice.notice-info a {
+	color: var(--info-color);
+}
+
+.soumettre-settings .notice::before,
+.soumettre-notice::before {
+	font-family: dashicons;
+	font-size: 30px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	filter: opacity(50%);
+}
+
+.soumettre-settings .notice-success::before,
+.soumettre-notice.notice-success::before {
+	content: "\f12a";
+	color: var(--main-color);
+}
+
+.soumettre-settings .notice-info::before,
+.soumettre-notice.notice-info::before {
+	content: "\f348";
+	color: var(--info-color);
+}
+
+.soumettre-settings .notice-warning::before,
+.soumettre-notice.notice-warning::before {
+	content: "\f534";
+	color: var(--warning-color);
+}
+
+.soumettre-settings .notice-error::before,
+.soumettre-notice.notice-error::before {
+	content: "\f153";
+	color: var(--error-color);
+}
+
+.soumettre-settings .notice-dismiss {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.soumettre-settings-aside .links {
+	list-style-position: inside;
+}
+
+.soumettre-settings-aside .links li {
+	position: relative;
+	padding-left: 1rem;
+}
+
+.soumettre-settings-aside .links li::before {
+	content: "\f139";
+	font-family: dashicons;
+	margin-right: 4px;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	transition: color 0.5s ease;
+}
+
+.soumettre-settings-container input,
+.soumettre-settings-container select,
+.soumettre-settings-container textarea,
+.soumettre-settings-container .button,
+.soumettre-settings-container .button-primary,
+.soumettre-settings-container .button-secondary {
+	border-radius: 0;
+}
+
+.soumettre-settings-container .button,
+.soumettre-settings-container .button-primary,
+.soumettre-settings-container .button-secondary {
+	padding: 0.4rem 1rem;
+	height: auto;
+}
+
+.soumettre-settings-container p.submit {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+@media screen and (min-width: 800px) {
+
+	.soumettre-settings-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.soumettre-settings {
+		max-width: 800px;
+		width: 100%;
+		margin-right: 2rem;
+	}
+}
+
+@media screen and (max-width: 430px) {
+
+	.soumettre-logo img {
+		width: 100%;
+	}
+
+}
